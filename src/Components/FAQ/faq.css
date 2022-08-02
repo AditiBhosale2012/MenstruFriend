@@ -1,0 +1,26 @@
+#root{
+    background-color: #8d1029;
+}
+.faq-row-wrapper{
+    background-color: #ffe0e6;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 150px;
+    height: 100vh;
+}
+.faq-title{
+    font-family: 'Prata', serif;
+    color: #80001C;
+}
+
+.faq-row {
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq-main-wrapper{
+    height: 100vh;
+    background-color: #ffe0e6;
+}
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
+    display: block;
+}

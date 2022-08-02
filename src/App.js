@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './Components/Navbar/index';
+import Quiz from './Components/Quiz/Quiz';
+import Chatmain from './Components/Chatbot/Chatmain';
+import Homemain from './Components/Home/Homemain';
+import Home from './Components/Home/Home';
+import Faqsection from './Components/FAQ/Faqsection';
+import Join from './Components/Livechat/components/Join/Join';
+import { Chat } from './Components/Livechat/components/Chat/Chat';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/faq" element={<Faqsection/>}/>
+          <Route path='/quiz' element={<Quiz/>}/>
+          <Route path='/chatbot' element={<Chatmain/>} />
+          <Route path='/livechat' element={< Join/>}/>
+          <Route path="/chat" element={<Chat />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

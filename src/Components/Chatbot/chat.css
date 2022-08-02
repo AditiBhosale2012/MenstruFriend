@@ -1,0 +1,22 @@
+.chat-main{
+    background-color: white;
+}
+.hYowUz{
+    background: #f5f8fb;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px 0rgba(0,0,0,0.15);
+    font-family: monospace;
+    overflow: hidden;
+    position: relative;
+    bottom: initial;
+    top: initial;
+    right: initial;
+    left: initial;
+    width: 50vw;
+    height: 81vh;
+    margin: auto;
+    z-index: 999;
+    transform: scale(1);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}

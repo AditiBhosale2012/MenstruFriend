@@ -1,0 +1,113 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Prata', serif;
+    background-color: #ffe0e6;
+}
+.quiz-main{
+  height: 64vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.quiz-main section{
+    padding-top: 100px;
+    height: 100%;
+    background-color: #ffe0e6;
+  }
+
+  .quiz-main section h1{
+    color: #80001C;
+  }
+  
+  .quiz-main section p{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .quiz-main section p a{
+    background-color: #80001C;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 10px;
+  }
+   
+  .quiz-main section p a:hover{
+    background-color: transparent;
+    border: 2px solid #80001C;
+    color: #80001C;
+  }
+  .quiz-main .card {
+    width: 30vw;
+    text-align: center;
+    border: 7px solid #9b2939;
+    /* padding: 4%; */
+    position: absolute;
+}
+.card-content .content{
+  padding:4%;
+}
+ 
+  .quiz-main .card .card-content .content h1{
+    color: #80001C;
+  }
+  
+  .quiz-main .card .card-content .content h3{
+    color: #80001C;
+  }
+  
+  .quiz-main .card .card-content .content h2{
+    color: #80001C;
+  }
+  
+  .quiz-main .card .card-content .content .mb-5{
+    color: #80001C;
+  }
+  .quiz-main .card .card-content .content p{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .quiz-main .card .card-content .content button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #80001C;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 30px;
+  }
+  .quiz-main .card .card-content .content button:hover{
+    border: 1px solid #80001C;
+    background-color: transparent;
+    color: #80001C;
+  }
+    
+  label.radio {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border: 1px solid #ffe0e6;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  label.radio:hover {
+    border: 2px solid #80001C;
+  }
+  
+  label.radio+.radio {
+    margin-left: 0;
+  }
+  
+  label.radio input {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+.navbar-main{
+    background-color: black;
+}
+
+.imageicon{
+    border: 2px solid red;
+    width: 4vw;
+    height: 9vh;
+    border-radius: 59px;
+    margin-left: -3vw;
+    margin-right: 1vw;
+}
+
+.heading{
+    color: brown;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3vw;
+}
+
+.bwVfEO {
+    margin: 11px;
+    font-size: 20px;
+    text-decoration: none;
+}
