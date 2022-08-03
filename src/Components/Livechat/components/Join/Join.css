@@ -1,5 +1,5 @@
 .Joinpage{
-background-color: rgb(39, 38, 38);
+background-color: rgb(245, 214, 238);
 width: 100vw;
 height: 100vh;
 display: flex;
@@ -8,16 +8,23 @@ align-items: center;
 }
 
 .JoinContainer{
+    background-color:#890d25;
+    border-radius: 10px;;
     border: 2px solid white;
-    height: fit-content;
+    height: 50%;
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 2%;
 }
-.JoinContainer > img{
+.join-heading > img{
     width: 5vmax;
+    height: 5vmax;
+    border-radius: 45px;
+}
+.join-heading > h1{
+    margin: auto;
 }
 .JoinContainer > h1{
     color: rgb(218, 19, 168);
@@ -28,11 +35,22 @@ align-items: center;
     text-align: center;
 }
 #joininput{
-    width: 28vmax;
+    width: 83%;
     padding: 1vmax;
     border: none;
     border-radius: 11px;
     border: 2px solid #df8f9d;
     background-color: #edd5e7;
     margin-bottom: 10px;
+    margin-top:10vh;
+    align-self: center;
+}
+.join-heading{
+    display: flex;
+    color: #edd5e7  ;
+   
+}
+.btn{
+    margin-top: 8%;
+    width: 55%;
 }

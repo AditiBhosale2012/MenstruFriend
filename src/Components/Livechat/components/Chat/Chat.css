@@ -1,5 +1,5 @@
 .chatpage{
-    background-color: rgb(31, 29, 29);
+    background-color: #f1c1cb;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,10 +11,11 @@
     background-color: white;
     height: 80%;
     width: 56%;
+    border: 2px solid;
 }
 
 .header{
-    background-color: #e3b3bc;
+    background-color: #7c041a;
     height: 15%;
    display: flex;
    align-items: center;
@@ -24,6 +25,7 @@
 .closel{
     margin: 2.5vmax;
     transition: all 0.3s;
+    width: 22%;
 }
 
 .closel:hover{
@@ -79,7 +81,7 @@
 
 
 .sendBtn{
-    background-color: crimson;
+    background-color: #7c041a;
     color: white;
     border: none;
     width: 21%;
@@ -94,8 +96,11 @@
     transition: all 0.3s;
 }
 .sendBtn:hover{
-    background-color: rgb(156, 13, 42);
+    background-color: crimson;
 } 
 .sendBtn:hover img{
     transform: translateX(10px);
+}
+.heading-logo{
+    border-radius: 65%;
 }

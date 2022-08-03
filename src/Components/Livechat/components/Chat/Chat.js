@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import { user } from "../Join/Join";
 import socketIO, { io } from "socket.io-client";
 import "./Chat.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/womenchat.jpg";
+// import logo from "../../images/logo.png";
 import sendlogo from "../../images/send.png";
 import Message from "../Message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import closelogo from "../../images/closeIcon.png";
+import Navbar from "../../../Navbar";
+import Fotter from "../../../Footer/Fotter";
 
 let socket;
 const ENDPOINT = "https://chatserver22.herokuapp.com/";
@@ -67,12 +70,14 @@ export const Chat = () => {
   }, [messages]);
 
   return (
+    <div>
+      <Navbar />
     <div className="chatpage">
       <div className="chatcontainer">
         <div className="header">
-          <img src={logo} alt="logo"></img>
+          <img className="heading-logo" src={logo} alt="logo"></img>
           <h2>women chat Room</h2>
-          <a href="/"> <img className="closel" src={closelogo} alt="Close" /></a>
+          <a href="/livechat"> <img className="closel" src={closelogo} alt="Close" /></a>
         </div>
         <ReactScrollToBottom className="chatbox">
           {messages.map((item, i) => (
@@ -94,6 +99,8 @@ export const Chat = () => {
           </button>
         </div>
       </div>
+    </div>
+    <Fotter />
     </div>
   );
 };
