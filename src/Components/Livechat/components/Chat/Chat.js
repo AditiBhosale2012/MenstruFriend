@@ -77,7 +77,7 @@ export const Chat = () => {
         <div className="header">
           <img className="heading-logo" src={logo} alt="logo"></img>
           <h2>women chat Room</h2>
-          <a href="/livechat"> <img className="closel" src={closelogo} alt="Close" /></a>
+          <a href='/livechat'> <img className="closel" src={closelogo} alt="Close" /></a>
         </div>
         <ReactScrollToBottom className="chatbox">
           {messages.map((item, i) => (

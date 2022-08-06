@@ -13,14 +13,13 @@ const Navbar = () => {
 return (
 	<div className='navbar-main'>
 	<Nav>
-		<Bars />
-		<NavMenu>
+		<NavMenu className='first'>
 		<div>
 			<img className='imageicon' src={mainlogo} alt="logo" />
 		</div>
-		<div className='heading'>Womanlike</div>
+		<div className='heading'>MenstruFriend</div>
 		</NavMenu>
-		<NavMenu>
+		<NavMenu className='second'>
 		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>

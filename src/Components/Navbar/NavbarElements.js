@@ -7,14 +7,16 @@ background: ffe0e6;
 height: 85px;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
 `;
-
+//padding: 0.2rem calc((100vw - 1000px) / 2);
 export const NavLink = styled(Link)`
 color: #ffffff;
+margin: 11px;
+font-size: 20px;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -23,6 +25,10 @@ height: 100%;
 cursor: pointer;
 &.active {
 	color: #ffffff;
+}
+&:hover{
+	color: rgb(247, 202, 202);
+    text-decoration: none;
 }
 `;
 
@@ -49,10 +55,10 @@ margin-right: -24px;
 /* Third Nav */
 /* width: 100vw;
 white-space: nowrap; */
-@media screen and (max-width: 768px) {
-	display: none;
-}
 `;
+// @media screen and (max-width: 768px) {
+// 	display: none;
+// }
 
 export const NavBtn = styled.nav`
 display: flex;
