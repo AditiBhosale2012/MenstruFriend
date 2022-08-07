@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
-import "./faq.css"
+import "./faq2.css"
 import Navbar from "../Navbar/index";
 import Fotter from "../Footer/Fotter";
 
