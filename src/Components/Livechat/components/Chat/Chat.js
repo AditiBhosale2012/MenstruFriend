@@ -81,7 +81,7 @@ export const Chat = () => {
           {/* <Link to='http://localhost:3000/livechat'>
           // <img className="closel" src={closelogo} alt="Close" />
           </Link> */}
-          <a href='/livechat'> <img className="closel" src={closelogo} alt="Close" /></a>
+          <a href='/'> <img className="closel" src={closelogo} alt="Close" /></a>
         </div>
         <ReactScrollToBottom className="chatbox">
           {messages.map((item, i) => (

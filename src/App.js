@@ -12,7 +12,7 @@ import { Chat } from './Components/Livechat/components/Chat/Chat';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route path='/faq' element={<Faqsection/>}/>
