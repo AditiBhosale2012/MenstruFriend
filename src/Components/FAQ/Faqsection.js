@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 import "./faq.css"
 import Navbar from "../Navbar/index";
+import Fotter from "../Footer/Fotter";
 
 
 const data = {
@@ -98,6 +99,7 @@ function Faqsection() {
                 styles={styles}
                 config={config}/>
             </div>
+       <Fotter/>
         </div>
   )
 }

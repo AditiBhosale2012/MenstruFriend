@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/index';
 import Quiz from './Components/Quiz/Quiz';
 import Chatmain from './Components/Chatbot/Chatmain';
