@@ -1,8 +1,15 @@
 /* #root{
     background-color: #8d1029;
 } */
-.faq-row-wrapper{
+.faq-main{
+    height: 100vh;
+    background-color:#ffe0e6;
+}
+.hello{
     background-color: #ffe0e6;
+    }
+.faq-row-wrapper{
+   
     padding-left: 200px;
     padding-top: 50px;
     padding-right: 150px;
@@ -24,3 +31,6 @@
 /* .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
     display: block;
 } */
+.styles_faq-row-wrapper__3vA1D {
+    background-color: unset;
+}

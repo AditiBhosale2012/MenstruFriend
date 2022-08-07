@@ -93,12 +93,14 @@ function Faqsection() {
   return (
     <div>
         <Navbar />
-            <div className="faq-main-wrapper">
+     <div className="faq-main">
+            <div className="hello">
                 <Faq 
                 data={data} getRowOptions={setRowsOption} 
                 styles={styles}
                 config={config}/>
             </div>
+        </div>
        <Fotter/>
         </div>
   )
