@@ -10,6 +10,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 import closelogo from "../../images/closeIcon.png";
 import Navbar from "../../../Navbar";
 import Fotter from "../../../Footer/Fotter";
+import { Link } from "react-router-dom";
 
 let socket;
 const ENDPOINT = "https://chatserver22.herokuapp.com/";
@@ -77,6 +78,9 @@ export const Chat = () => {
         <div className="header">
           <img className="heading-logo" src={logo} alt="logo"></img>
           <h2>women chat Room</h2>
+          {/* <Link to='http://localhost:3000/livechat'>
+          // <img className="closel" src={closelogo} alt="Close" />
+          </Link> */}
           <a href='/livechat'> <img className="closel" src={closelogo} alt="Close" /></a>
         </div>
         <ReactScrollToBottom className="chatbox">
