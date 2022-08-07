@@ -14,12 +14,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route path="/faq" element={<Faqsection/>}/>
+          <Route exact path='/' element={<Home/>} />
+          <Route path='/faq' element={<Faqsection/>}/>
           <Route path='/quiz' element={<Quiz/>}/>
           <Route path='/chatbot' element={<Chatmain/>} />
           <Route path='/livechat' element={< Join/>}/>
-          <Route path="/chat" element={<Chat />}/>
+          <Route path='/chat' element={<Chat />}/>
         </Routes>
       </BrowserRouter>
     </div>
