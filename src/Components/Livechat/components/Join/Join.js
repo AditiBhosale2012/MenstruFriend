@@ -21,7 +21,7 @@ function Join() {
       <div className="JoinContainer">
         <div className="join-heading">
         <img src={logo} alt="logo" />
-        <h1>DocChat</h1>
+        <h1>MenstruChat</h1>
         </div>
         <input  onChange={(e) => setname(e.target.value)} type="text" id="joininput" placeholder="Enter your name" />
         <Link onClick={(event) => !name ? event.preventDefault() : null} to="/chat">
